@@ -1,0 +1,1186 @@
+[
+  {
+    "Codice": "100000301",
+    "Descrizione": "AFGHANISTAN",
+    "Provincia": "ES"
+  },
+  {
+    "Codice": "100000201",
+    "Descrizione": "ALBANIA",
+    "Provincia": "ES"
+  },
+  {
+    "Codice": "100000401",
+    "Descrizione": "ALGERIA",
+    "Provincia": "ES"
+  },
+  {
+    "Codice": "100000202",
+    "Descrizione": "ANDORRA",
+    "Provincia": "ES"
+  },
+  {
+    "Codice": "100000402",
+    "Descrizione": "ANGOLA",
+    "Provincia": "ES"
+  },
+  {
+    "Codice": "100000733",
+    "Descrizione": "ANGUILLA (ISOLA)",
+    "Provincia": "ES"
+  },
+  {
+    "Codice": "100000503",
+    "Descrizione": "ANTIGUA E BARBUDA",
+    "Provincia": "ES"
+  },
+  {
+    "Codice": "100000999",
+    "Descrizione": "APOLIDE",
+    "Provincia": "ES"
+  },
+  {
+    "Codice": "100000302",
+    "Descrizione": "ARABIA SAUDITA",
+    "Provincia": "ES"
+  },
+  {
+    "Codice": "100000602",
+    "Descrizione": "ARGENTINA",
+    "Provincia": "ES"
+  },
+  {
+    "Codice": "100000358",
+    "Descrizione": "ARMENIA",
+    "Provincia": "ES"
+  },
+  {
+    "Codice": "100000701",
+    "Descrizione": "AUSTRALIA",
+    "Provincia": "ES"
+  },
+  {
+    "Codice": "100000203",
+    "Descrizione": "AUSTRIA",
+    "Provincia": "ES"
+  },
+  {
+    "Codice": "100000359",
+    "Descrizione": "AZERBAIGIAN",
+    "Provincia": "ES"
+  },
+  {
+    "Codice": "100000505",
+    "Descrizione": "BAHAMAS",
+    "Provincia": "ES"
+  },
+  {
+    "Codice": "100000304",
+    "Descrizione": "BAHREIN",
+    "Provincia": "ES"
+  },
+  {
+    "Codice": "100000305",
+    "Descrizione": "BANGLADESH",
+    "Provincia": "ES"
+  },
+  {
+    "Codice": "100000506",
+    "Descrizione": "BARBADOS",
+    "Provincia": "ES"
+  },
+  {
+    "Codice": "100000206",
+    "Descrizione": "BELGIO",
+    "Provincia": "ES"
+  },
+  {
+    "Codice": "100000507",
+    "Descrizione": "BELIZE",
+    "Provincia": "ES"
+  },
+  {
+    "Codice": "100000406",
+    "Descrizione": "BENIN",
+    "Provincia": "ES"
+  },
+  {
+    "Codice": "100000739",
+    "Descrizione": "BERMUDE",
+    "Provincia": "ES"
+  },
+  {
+    "Codice": "100000306",
+    "Descrizione": "BHUTAN",
+    "Provincia": "ES"
+  },
+  {
+    "Codice": "100000256",
+    "Descrizione": "BIELORUSSIA",
+    "Provincia": "ES"
+  },
+  {
+    "Codice": "100000604",
+    "Descrizione": "BOLIVIA",
+    "Provincia": "ES"
+  },
+  {
+    "Codice": "100000740",
+    "Descrizione": "BOPHUTHATSWANA",
+    "Provincia": "ES",
+    "DataFineVal": "01/05/1994 00:00:00"
+  },
+  {
+    "Codice": "100000252",
+    "Descrizione": "BOSNIA ED ERZEGOVINA",
+    "Provincia": "ES"
+  },
+  {
+    "Codice": "100000408",
+    "Descrizione": "BOTSWANA",
+    "Provincia": "ES"
+  },
+  {
+    "Codice": "100000605",
+    "Descrizione": "BRASILE",
+    "Provincia": "ES"
+  },
+  {
+    "Codice": "100000309",
+    "Descrizione": "BRUNEI DARUSSALAM",
+    "Provincia": "ES"
+  },
+  {
+    "Codice": "100000209",
+    "Descrizione": "BULGARIA",
+    "Provincia": "ES"
+  },
+  {
+    "Codice": "100000409",
+    "Descrizione": "BURKINA FASO",
+    "Provincia": "ES"
+  },
+  {
+    "Codice": "100000410",
+    "Descrizione": "BURUNDI",
+    "Provincia": "ES"
+  },
+  {
+    "Codice": "100000310",
+    "Descrizione": "CAMBOGIA",
+    "Provincia": "ES"
+  },
+  {
+    "Codice": "100000411",
+    "Descrizione": "CAMERUN",
+    "Provincia": "ES"
+  },
+  {
+    "Codice": "100000509",
+    "Descrizione": "CANADA",
+    "Provincia": "ES"
+  },
+  {
+    "Codice": "100000413",
+    "Descrizione": "CAPO VERDE",
+    "Provincia": "ES"
+  },
+  {
+    "Codice": "100000742",
+    "Descrizione": "CAYMAN (ISOLE)",
+    "Provincia": "ES"
+  },
+  {
+    "Codice": "100000210",
+    "Descrizione": "CECOSLOVACCHIA",
+    "Provincia": "ES",
+    "DataFineVal": "01/01/1993 00:00:00"
+  },
+  {
+    "Codice": "100000743",
+    "Descrizione": "CHRISTMAS",
+    "Provincia": "ES"
+  },
+  {
+    "Codice": "100000415",
+    "Descrizione": "CIAD",
+    "Provincia": "ES"
+  },
+  {
+    "Codice": "100000606",
+    "Descrizione": "CILE",
+    "Provincia": "ES"
+  },
+  {
+    "Codice": "100000314",
+    "Descrizione": "CINA",
+    "Provincia": "ES"
+  },
+  {
+    "Codice": "100000315",
+    "Descrizione": "CIPRO",
+    "Provincia": "ES"
+  },
+  {
+    "Codice": "100000746",
+    "Descrizione": "COCOS",
+    "Provincia": "ES"
+  },
+  {
+    "Codice": "100000608",
+    "Descrizione": "COLOMBIA",
+    "Provincia": "ES"
+  },
+  {
+    "Codice": "100000417",
+    "Descrizione": "COMORE",
+    "Provincia": "ES"
+  },
+  {
+    "Codice": "100000418",
+    "Descrizione": "CONGO",
+    "Provincia": "ES"
+  },
+  {
+    "Codice": "100000319",
+    "Descrizione": "COREA DEL NORD",
+    "Provincia": "ES"
+  },
+  {
+    "Codice": "100000320",
+    "Descrizione": "COREA DEL SUD",
+    "Provincia": "ES"
+  },
+  {
+    "Codice": "100000404",
+    "Descrizione": "COSTA D'AVORIO",
+    "Provincia": "ES"
+  },
+  {
+    "Codice": "100000513",
+    "Descrizione": "COSTA RICA",
+    "Provincia": "ES"
+  },
+  {
+    "Codice": "100000250",
+    "Descrizione": "CROAZIA",
+    "Provincia": "ES"
+  },
+  {
+    "Codice": "100000514",
+    "Descrizione": "CUBA",
+    "Provincia": "ES"
+  },
+  {
+    "Codice": "100000212",
+    "Descrizione": "DANIMARCA",
+    "Provincia": "ES"
+  },
+  {
+    "Codice": "100000515",
+    "Descrizione": "DOMINICA",
+    "Provincia": "ES"
+  },
+  {
+    "Codice": "100000609",
+    "Descrizione": "ECUADOR",
+    "Provincia": "ES"
+  },
+  {
+    "Codice": "100000419",
+    "Descrizione": "EGITTO",
+    "Provincia": "ES"
+  },
+  {
+    "Codice": "100000517",
+    "Descrizione": "EL SALVADOR",
+    "Provincia": "ES"
+  },
+  {
+    "Codice": "100000322",
+    "Descrizione": "EMIRATI ARABI UNITI",
+    "Provincia": "ES"
+  },
+  {
+    "Codice": "100000466",
+    "Descrizione": "ERITREA",
+    "Provincia": "ES"
+  },
+  {
+    "Codice": "100000247",
+    "Descrizione": "ESTONIA",
+    "Provincia": "ES"
+  },
+  {
+    "Codice": "100000420",
+    "Descrizione": "ETIOPIA",
+    "Provincia": "ES"
+  },
+  {
+    "Codice": "100000755",
+    "Descrizione": "FAER OER",
+    "Provincia": "ES"
+  },
+  {
+    "Codice": "100000245",
+    "Descrizione": "FEDERAZIONE RUSSA",
+    "Provincia": "ES"
+  },
+  {
+    "Codice": "100000703",
+    "Descrizione": "FIGI",
+    "Provincia": "ES"
+  },
+  {
+    "Codice": "100000323",
+    "Descrizione": "FILIPPINE",
+    "Provincia": "ES"
+  },
+  {
+    "Codice": "100000214",
+    "Descrizione": "FINLANDIA",
+    "Provincia": "ES"
+  },
+  {
+    "Codice": "100000215",
+    "Descrizione": "FRANCIA",
+    "Provincia": "ES"
+  },
+  {
+    "Codice": "100000421",
+    "Descrizione": "GABON",
+    "Provincia": "ES"
+  },
+  {
+    "Codice": "100000422",
+    "Descrizione": "GAMBIA",
+    "Provincia": "ES"
+  },
+  {
+    "Codice": "100000360",
+    "Descrizione": "GEORGIA",
+    "Provincia": "ES"
+  },
+  {
+    "Codice": "110000022",
+    "Descrizione": "GEORGIA SUD E ISOLE SANDWICH AUSTRALI",
+    "Provincia": "ES"
+  },
+  {
+    "Codice": "100000216",
+    "Descrizione": "GERMANIA",
+    "Provincia": "ES"
+  },
+  {
+    "Codice": "100000423",
+    "Descrizione": "GHANA",
+    "Provincia": "ES"
+  },
+  {
+    "Codice": "100000518",
+    "Descrizione": "GIAMAICA",
+    "Provincia": "ES"
+  },
+  {
+    "Codice": "100000326",
+    "Descrizione": "GIAPPONE",
+    "Provincia": "ES"
+  },
+  {
+    "Codice": "100000424",
+    "Descrizione": "GIBUTI",
+    "Provincia": "ES"
+  },
+  {
+    "Codice": "100000327",
+    "Descrizione": "GIORDANIA",
+    "Provincia": "ES"
+  },
+  {
+    "Codice": "100000220",
+    "Descrizione": "GRECIA",
+    "Provincia": "ES"
+  },
+  {
+    "Codice": "100000519",
+    "Descrizione": "GRENADA",
+    "Provincia": "ES"
+  },
+  {
+    "Codice": "100000758",
+    "Descrizione": "GROENLANDIA",
+    "Provincia": "ES"
+  },
+  {
+    "Codice": "100000759",
+    "Descrizione": "GUADALUPA",
+    "Provincia": "ES"
+  },
+  {
+    "Codice": "100000760",
+    "Descrizione": "GUAM",
+    "Provincia": "ES"
+  },
+  {
+    "Codice": "100000523",
+    "Descrizione": "GUATEMALA",
+    "Provincia": "ES"
+  },
+  {
+    "Codice": "100000761",
+    "Descrizione": "GUAYANA FRANCESE",
+    "Provincia": "ES"
+  },
+  {
+    "Codice": "110000014",
+    "Descrizione": "GUERNSEY",
+    "Provincia": "ES"
+  },
+  {
+    "Codice": "100000425",
+    "Descrizione": "GUINEA",
+    "Provincia": "ES"
+  },
+  {
+    "Codice": "100000426",
+    "Descrizione": "GUINEA BISSAU",
+    "Provincia": "ES"
+  },
+  {
+    "Codice": "100000427",
+    "Descrizione": "GUINEA EQUATORIALE",
+    "Provincia": "ES"
+  },
+  {
+    "Codice": "100000612",
+    "Descrizione": "GUYANA",
+    "Provincia": "ES"
+  },
+  {
+    "Codice": "100000524",
+    "Descrizione": "HAITI",
+    "Provincia": "ES"
+  },
+  {
+    "Codice": "100000525",
+    "Descrizione": "HONDURAS",
+    "Provincia": "ES"
+  },
+  {
+    "Codice": "110000005",
+    "Descrizione": "HONG KONG",
+    "Provincia": "ES"
+  },
+  {
+    "Codice": "100000330",
+    "Descrizione": "INDIA",
+    "Provincia": "ES"
+  },
+  {
+    "Codice": "100000331",
+    "Descrizione": "INDONESIA",
+    "Provincia": "ES"
+  },
+  {
+    "Codice": "100000332",
+    "Descrizione": "IRAN",
+    "Provincia": "ES"
+  },
+  {
+    "Codice": "100000333",
+    "Descrizione": "IRAQ",
+    "Provincia": "ES"
+  },
+  {
+    "Codice": "100000221",
+    "Descrizione": "IRLANDA",
+    "Provincia": "ES"
+  },
+  {
+    "Codice": "100000223",
+    "Descrizione": "ISLANDA",
+    "Provincia": "ES"
+  },
+  {
+    "Codice": "100000764",
+    "Descrizione": "ISOLE VERGINI",
+    "Provincia": "ES"
+  },
+  {
+    "Codice": "100000334",
+    "Descrizione": "ISRAELE",
+    "Provincia": "ES"
+  },
+  {
+    "Codice": "100000100",
+    "Descrizione": "ITALIA",
+    "Provincia": "ES"
+  },
+  {
+    "Codice": "100000356",
+    "Descrizione": "KAZAKISTAN",
+    "Provincia": "ES"
+  },
+  {
+    "Codice": "100000428",
+    "Descrizione": "KENYA",
+    "Provincia": "ES"
+  },
+  {
+    "Codice": "100000361",
+    "Descrizione": "KIRGHIZISTAN",
+    "Provincia": "ES"
+  },
+  {
+    "Codice": "100000708",
+    "Descrizione": "KIRIBATI",
+    "Provincia": "ES"
+  },
+  {
+    "Codice": "100001002",
+    "Descrizione": "KOSOVO",
+    "Provincia": "ES"
+  },
+  {
+    "Codice": "100000335",
+    "Descrizione": "KUWAIT",
+    "Provincia": "ES"
+  },
+  {
+    "Codice": "100000765",
+    "Descrizione": "LA REUNION",
+    "Provincia": "ES"
+  },
+  {
+    "Codice": "100000336",
+    "Descrizione": "LAOS",
+    "Provincia": "ES"
+  },
+  {
+    "Codice": "100000429",
+    "Descrizione": "LESOTHO",
+    "Provincia": "ES"
+  },
+  {
+    "Codice": "100000248",
+    "Descrizione": "LETTONIA",
+    "Provincia": "ES"
+  },
+  {
+    "Codice": "100000337",
+    "Descrizione": "LIBANO",
+    "Provincia": "ES"
+  },
+  {
+    "Codice": "100000430",
+    "Descrizione": "LIBERIA",
+    "Provincia": "ES"
+  },
+  {
+    "Codice": "100000431",
+    "Descrizione": "LIBIA",
+    "Provincia": "ES"
+  },
+  {
+    "Codice": "100000225",
+    "Descrizione": "LIECHTENSTEIN",
+    "Provincia": "ES"
+  },
+  {
+    "Codice": "100000249",
+    "Descrizione": "LITUANIA",
+    "Provincia": "ES"
+  },
+  {
+    "Codice": "100000226",
+    "Descrizione": "LUSSEMBURGO",
+    "Provincia": "ES"
+  },
+  {
+    "Codice": "110000003",
+    "Descrizione": "MACAO",
+    "Provincia": "ES"
+  },
+  {
+    "Codice": "100000253",
+    "Descrizione": "MACEDONIA",
+    "Provincia": "ES",
+    "DataFineVal": "13/02/2019 00:00:00"
+  },
+  {
+    "Codice": "100000997",
+    "Descrizione": "MACEDONIA DEL NORD",
+    "Provincia": "ES"
+  },
+  {
+    "Codice": "100000432",
+    "Descrizione": "MADAGASCAR",
+    "Provincia": "ES"
+  },
+  {
+    "Codice": "100000434",
+    "Descrizione": "MALAWI",
+    "Provincia": "ES"
+  },
+  {
+    "Codice": "100000767",
+    "Descrizione": "MALAYSIA",
+    "Provincia": "ES"
+  },
+  {
+    "Codice": "100000339",
+    "Descrizione": "MALDIVE",
+    "Provincia": "ES"
+  },
+  {
+    "Codice": "100000435",
+    "Descrizione": "MALI",
+    "Provincia": "ES"
+  },
+  {
+    "Codice": "100000227",
+    "Descrizione": "MALTA",
+    "Provincia": "ES"
+  },
+  {
+    "Codice": "100000768",
+    "Descrizione": "MALVINE",
+    "Provincia": "ES"
+  },
+  {
+    "Codice": "100000769",
+    "Descrizione": "MAN",
+    "Provincia": "ES"
+  },
+  {
+    "Codice": "100000436",
+    "Descrizione": "MAROCCO",
+    "Provincia": "ES"
+  },
+  {
+    "Codice": "100000772",
+    "Descrizione": "MARSHALL",
+    "Provincia": "ES"
+  },
+  {
+    "Codice": "100000773",
+    "Descrizione": "MARTINICA",
+    "Provincia": "ES"
+  },
+  {
+    "Codice": "100000437",
+    "Descrizione": "MAURITANIA",
+    "Provincia": "ES"
+  },
+  {
+    "Codice": "100000438",
+    "Descrizione": "MAURIZIO",
+    "Provincia": "ES"
+  },
+  {
+    "Codice": "100000774",
+    "Descrizione": "MAYOTTE",
+    "Provincia": "ES"
+  },
+  {
+    "Codice": "100000527",
+    "Descrizione": "MESSICO",
+    "Provincia": "ES"
+  },
+  {
+    "Codice": "100000775",
+    "Descrizione": "MICRONESIA STATI FEDERALI",
+    "Provincia": "ES"
+  },
+  {
+    "Codice": "100000254",
+    "Descrizione": "MOLDAVIA",
+    "Provincia": "ES"
+  },
+  {
+    "Codice": "100000229",
+    "Descrizione": "MONACO",
+    "Provincia": "ES"
+  },
+  {
+    "Codice": "100000341",
+    "Descrizione": "MONGOLIA",
+    "Provincia": "ES"
+  },
+  {
+    "Codice": "100001001",
+    "Descrizione": "MONTENEGRO",
+    "Provincia": "ES"
+  },
+  {
+    "Codice": "100000777",
+    "Descrizione": "MONTSERRAT",
+    "Provincia": "ES"
+  },
+  {
+    "Codice": "100000440",
+    "Descrizione": "MOZAMBICO",
+    "Provincia": "ES"
+  },
+  {
+    "Codice": "100000307",
+    "Descrizione": "MYANMAR-BIRMANIA",
+    "Provincia": "ES"
+  },
+  {
+    "Codice": "100000441",
+    "Descrizione": "NAMIBIA",
+    "Provincia": "ES"
+  },
+  {
+    "Codice": "100000715",
+    "Descrizione": "NAURU",
+    "Provincia": "ES"
+  },
+  {
+    "Codice": "100000342",
+    "Descrizione": "NEPAL",
+    "Provincia": "ES"
+  },
+  {
+    "Codice": "100000529",
+    "Descrizione": "NICARAGUA",
+    "Provincia": "ES"
+  },
+  {
+    "Codice": "100000442",
+    "Descrizione": "NIGER",
+    "Provincia": "ES"
+  },
+  {
+    "Codice": "100000443",
+    "Descrizione": "NIGERIA",
+    "Provincia": "ES"
+  },
+  {
+    "Codice": "100000778",
+    "Descrizione": "NORFOLK",
+    "Provincia": "ES"
+  },
+  {
+    "Codice": "100000231",
+    "Descrizione": "NORVEGIA",
+    "Provincia": "ES"
+  },
+  {
+    "Codice": "100000780",
+    "Descrizione": "NUOVA CALEDONIA",
+    "Provincia": "ES"
+  },
+  {
+    "Codice": "100000719",
+    "Descrizione": "NUOVA ZELANDA",
+    "Provincia": "ES"
+  },
+  {
+    "Codice": "100000343",
+    "Descrizione": "OMAN",
+    "Provincia": "ES"
+  },
+  {
+    "Codice": "100000232",
+    "Descrizione": "PAESI BASSI",
+    "Provincia": "ES"
+  },
+  {
+    "Codice": "100000344",
+    "Descrizione": "PAKISTAN",
+    "Provincia": "ES"
+  },
+  {
+    "Codice": "100000783",
+    "Descrizione": "PALAU REPUBBLICA",
+    "Provincia": "ES"
+  },
+  {
+    "Codice": "110000001",
+    "Descrizione": "PALESTINA",
+    "Provincia": "ES"
+  },
+  {
+    "Codice": "100000530",
+    "Descrizione": "PANAMA",
+    "Provincia": "ES"
+  },
+  {
+    "Codice": "100000721",
+    "Descrizione": "PAPUASIA-N.GUINEA",
+    "Provincia": "ES"
+  },
+  {
+    "Codice": "100000614",
+    "Descrizione": "PARAGUAY",
+    "Provincia": "ES"
+  },
+  {
+    "Codice": "100000615",
+    "Descrizione": "PERU'",
+    "Provincia": "ES"
+  },
+  {
+    "Codice": "100000786",
+    "Descrizione": "PITCAIRN",
+    "Provincia": "ES"
+  },
+  {
+    "Codice": "100000787",
+    "Descrizione": "POLINESIA",
+    "Provincia": "ES"
+  },
+  {
+    "Codice": "100000233",
+    "Descrizione": "POLONIA",
+    "Provincia": "ES"
+  },
+  {
+    "Codice": "100000234",
+    "Descrizione": "PORTOGALLO",
+    "Provincia": "ES"
+  },
+  {
+    "Codice": "100000790",
+    "Descrizione": "PUERTO RICO",
+    "Provincia": "ES"
+  },
+  {
+    "Codice": "100000345",
+    "Descrizione": "QATAR",
+    "Provincia": "ES"
+  },
+  {
+    "Codice": "100000219",
+    "Descrizione": "REGNO UNITO",
+    "Provincia": "ES"
+  },
+  {
+    "Codice": "100000257",
+    "Descrizione": "REPUBBLICA CECA",
+    "Provincia": "ES"
+  },
+  {
+    "Codice": "100000414",
+    "Descrizione": "REPUBBLICA CENTRAFRICANA",
+    "Provincia": "ES"
+  },
+  {
+    "Codice": "100000998",
+    "Descrizione": "REPUBBLICA DEMOCRATICA DEL CONGO",
+    "Provincia": "ES"
+  },
+  {
+    "Codice": "100000516",
+    "Descrizione": "REPUBBLICA DOMINICANA",
+    "Provincia": "ES"
+  },
+  {
+    "Codice": "100000255",
+    "Descrizione": "REPUBBLICA SLOVACCA",
+    "Provincia": "ES"
+  },
+  {
+    "Codice": "100000235",
+    "Descrizione": "ROMANIA",
+    "Provincia": "ES"
+  },
+  {
+    "Codice": "100000446",
+    "Descrizione": "RUANDA",
+    "Provincia": "ES"
+  },
+  {
+    "Codice": "100000534",
+    "Descrizione": "S. CHRISTOPHER E NEVIS",
+    "Provincia": "ES"
+  },
+  {
+    "Codice": "100000533",
+    "Descrizione": "S. VINCENT E GRENADINE",
+    "Provincia": "ES",
+    "DataFineVal": "22/11/2001 00:00:00"
+  },
+  {
+    "Codice": "100000795",
+    "Descrizione": "SAHARA SPAGNOLO",
+    "Provincia": "ES"
+  },
+  {
+    "Codice": "100000532",
+    "Descrizione": "SAINT LUCIA",
+    "Provincia": "ES"
+  },
+  {
+    "Codice": "100000796",
+    "Descrizione": "SAINT PIERRE ET MIQUELON",
+    "Provincia": "ES"
+  },
+  {
+    "Codice": "100000797",
+    "Descrizione": "SAINT VINCENT E GRENADINE",
+    "Provincia": "ES"
+  },
+  {
+    "Codice": "100000725",
+    "Descrizione": "SALOMONE",
+    "Provincia": "ES"
+  },
+  {
+    "Codice": "100000727",
+    "Descrizione": "SAMOA",
+    "Provincia": "ES"
+  },
+  {
+    "Codice": "100000798",
+    "Descrizione": "SAMOA AMERICANE",
+    "Provincia": "ES"
+  },
+  {
+    "Codice": "100000236",
+    "Descrizione": "SAN MARINO",
+    "Provincia": "ES"
+  },
+  {
+    "Codice": "100000799",
+    "Descrizione": "SANT ELENA",
+    "Provincia": "ES"
+  },
+  {
+    "Codice": "100000448",
+    "Descrizione": "SAO TOME' E PRINCIPE",
+    "Provincia": "ES"
+  },
+  {
+    "Codice": "100000450",
+    "Descrizione": "SENEGAL",
+    "Provincia": "ES"
+  },
+  {
+    "Codice": "100001000",
+    "Descrizione": "SERBIA",
+    "Provincia": "ES"
+  },
+  {
+    "Codice": "100000449",
+    "Descrizione": "SEYCHELLES",
+    "Provincia": "ES"
+  },
+  {
+    "Codice": "100000451",
+    "Descrizione": "SIERRA LEONE",
+    "Provincia": "ES"
+  },
+  {
+    "Codice": "100000346",
+    "Descrizione": "SINGAPORE",
+    "Provincia": "ES"
+  },
+  {
+    "Codice": "100000348",
+    "Descrizione": "SIRIA",
+    "Provincia": "ES"
+  },
+  {
+    "Codice": "100000251",
+    "Descrizione": "SLOVENIA",
+    "Provincia": "ES"
+  },
+  {
+    "Codice": "100000453",
+    "Descrizione": "SOMALIA",
+    "Provincia": "ES"
+  },
+  {
+    "Codice": "100000239",
+    "Descrizione": "SPAGNA",
+    "Provincia": "ES"
+  },
+  {
+    "Codice": "100000311",
+    "Descrizione": "SRI LANKA (CEYLON)",
+    "Provincia": "ES"
+  },
+  {
+    "Codice": "100000536",
+    "Descrizione": "STATI UNITI D'AMERICA",
+    "Provincia": "ES"
+  },
+  {
+    "Codice": "100000246",
+    "Descrizione": "STATO DELLA CITTA' DEL VATICANO",
+    "Provincia": "ES"
+  },
+  {
+    "Codice": "100000467",
+    "Descrizione": "SUD SUDAN",
+    "Provincia": "ES"
+  },
+  {
+    "Codice": "100000454",
+    "Descrizione": "SUDAFRICA",
+    "Provincia": "ES"
+  },
+  {
+    "Codice": "100000455",
+    "Descrizione": "SUDAN",
+    "Provincia": "ES"
+  },
+  {
+    "Codice": "100000616",
+    "Descrizione": "SURINAME",
+    "Provincia": "ES"
+  },
+  {
+    "Codice": "100000240",
+    "Descrizione": "SVEZIA",
+    "Provincia": "ES"
+  },
+  {
+    "Codice": "100000241",
+    "Descrizione": "SVIZZERA",
+    "Provincia": "ES"
+  },
+  {
+    "Codice": "100000456",
+    "Descrizione": "SWAZILAND",
+    "Provincia": "ES"
+  },
+  {
+    "Codice": "100000362",
+    "Descrizione": "TAGIKISTAN",
+    "Provincia": "ES"
+  },
+  {
+    "Codice": "100000363",
+    "Descrizione": "TAIWAN",
+    "Provincia": "ES"
+  },
+  {
+    "Codice": "100000457",
+    "Descrizione": "TANZANIA",
+    "Provincia": "ES"
+  },
+  {
+    "Codice": "100000349",
+    "Descrizione": "THAILANDIA",
+    "Provincia": "ES"
+  },
+  {
+    "Codice": "100000805",
+    "Descrizione": "TIMOR",
+    "Provincia": "ES"
+  },
+  {
+    "Codice": "100000458",
+    "Descrizione": "TOGO",
+    "Provincia": "ES"
+  },
+  {
+    "Codice": "100000806",
+    "Descrizione": "TOKELAU",
+    "Provincia": "ES"
+  },
+  {
+    "Codice": "100000730",
+    "Descrizione": "TONGA",
+    "Provincia": "ES"
+  },
+  {
+    "Codice": "100000617",
+    "Descrizione": "TRINIDAD E TOBAGO",
+    "Provincia": "ES"
+  },
+  {
+    "Codice": "100000460",
+    "Descrizione": "TUNISIA",
+    "Provincia": "ES"
+  },
+  {
+    "Codice": "100000351",
+    "Descrizione": "TURCHIA",
+    "Provincia": "ES"
+  },
+  {
+    "Codice": "100000364",
+    "Descrizione": "TURKMENISTAN",
+    "Provincia": "ES"
+  },
+  {
+    "Codice": "100000810",
+    "Descrizione": "TURKS",
+    "Provincia": "ES"
+  },
+  {
+    "Codice": "100000731",
+    "Descrizione": "TUVALU",
+    "Provincia": "ES"
+  },
+  {
+    "Codice": "100000243",
+    "Descrizione": "UCRAINA",
+    "Provincia": "ES"
+  },
+  {
+    "Codice": "100000461",
+    "Descrizione": "UGANDA",
+    "Provincia": "ES"
+  },
+  {
+    "Codice": "100000244",
+    "Descrizione": "UNGHERIA",
+    "Provincia": "ES"
+  },
+  {
+    "Codice": "100000618",
+    "Descrizione": "URUGUAY",
+    "Provincia": "ES"
+  },
+  {
+    "Codice": "100000357",
+    "Descrizione": "UZBEKISTAN",
+    "Provincia": "ES"
+  },
+  {
+    "Codice": "100000732",
+    "Descrizione": "VANUATU",
+    "Provincia": "ES"
+  },
+  {
+    "Codice": "100000619",
+    "Descrizione": "VENEZUELA",
+    "Provincia": "ES"
+  },
+  {
+    "Codice": "100000812",
+    "Descrizione": "VERGINI BRITANNICHE (ISOLE)",
+    "Provincia": "ES"
+  },
+  {
+    "Codice": "100000353",
+    "Descrizione": "VIETNAM",
+    "Provincia": "ES"
+  },
+  {
+    "Codice": "100000815",
+    "Descrizione": "WALLIS",
+    "Provincia": "ES"
+  },
+  {
+    "Codice": "100000354",
+    "Descrizione": "YEMEN",
+    "Provincia": "ES"
+  },
+  {
+    "Codice": "100000464",
+    "Descrizione": "ZAMBIA",
+    "Provincia": "ES"
+  },
+  {
+    "Codice": "100000465",
+    "Descrizione": "ZIMBABWE",
+    "Provincia": "ES"
+  }
+]

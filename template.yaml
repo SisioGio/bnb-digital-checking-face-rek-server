@@ -1,0 +1,324 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Transform: AWS::Serverless-2016-10-31
+Description: >
+  airbnb-backend-template
+
+Resources:
+
+  UploadBucket:
+    Type: AWS::S3::Bucket
+
+
+  ApartmentsTable:
+    Type: AWS::DynamoDB::Table
+    Properties:
+      AttributeDefinitions:
+        - AttributeName: apartment_id
+          AttributeType: S
+      KeySchema:
+        - AttributeName: apartment_id
+          KeyType: HASH
+      
+      BillingMode: PAY_PER_REQUEST
+
+  BookingsTable:
+    Type: AWS::DynamoDB::Table
+    Properties:
+      AttributeDefinitions:
+        - AttributeName: apartment_id
+          AttributeType: S
+        - AttributeName: booking_id
+          AttributeType: S
+        - AttributeName: checkin
+          AttributeType: S
+        - AttributeName: year
+          AttributeType: N
+        - AttributeName: month
+          AttributeType: N
+        - AttributeName: day
+          AttributeType: N
+      KeySchema:
+        - AttributeName: apartment_id
+          KeyType: HASH
+        - AttributeName: booking_id
+          KeyType: RANGE
+      BillingMode: PAY_PER_REQUEST
+      GlobalSecondaryIndexes:
+        - IndexName: CheckinDateIndex
+          KeySchema:
+            - AttributeName: checkin
+              KeyType: HASH
+          Projection:
+            ProjectionType: ALL
+        - IndexName: YearIndex
+          KeySchema:
+            - AttributeName: year
+              KeyType: HASH
+          Projection:
+            ProjectionType: ALL
+
+        - IndexName: MonthIndex
+          KeySchema:
+            - AttributeName: month
+              KeyType: HASH
+          Projection:
+            ProjectionType: ALL
+
+        - IndexName: DayIndex
+          KeySchema:
+            - AttributeName: day
+              KeyType: HASH
+          Projection:
+            ProjectionType: ALL
+  GuestsTable:
+    Type: AWS::DynamoDB::Table
+    Properties:
+      
+      AttributeDefinitions:
+        - AttributeName: booking_id
+          AttributeType: S
+        - AttributeName: guest_id
+          AttributeType: S
+      KeySchema:
+        - AttributeName: booking_id
+          KeyType: HASH
+        - AttributeName: guest_id
+          KeyType: RANGE
+      BillingMode: PAY_PER_REQUEST
+
+  UsersTable:
+    Type: AWS::DynamoDB::Table
+    Properties:
+      
+      AttributeDefinitions:
+        - AttributeName: email
+          AttributeType: S
+      KeySchema:
+        - AttributeName: email
+          KeyType: HASH
+      BillingMode: PAY_PER_REQUEST
+
+  UsersFunctions:
+    Type: AWS::Serverless::Function
+    Properties:
+      Handler: app.lambda_handler
+      Runtime: python3.8
+      CodeUri: src/host/
+      Role: !GetAtt LambdaExecutionRole.Arn
+      MemorySize: 512
+      Timeout: 30
+      Environment:
+        Variables:
+          USERS_TABLE: !Ref UsersTable
+          APARTMENTS_TABLE: !Ref ApartmentsTable
+          BOOKINGS_TABLE: !Ref BookingsTable
+          GUESTS_TABLE: !Ref GuestsTable
+          BUCKET_NAME: !Ref UploadBucket
+          SECRET_KEY: "54353245345234534535tdfasdfadsfsdf2243252454t43adaf"
+          FRONTEND_BASE_URL: "https://www.airbnb.finbotix.de"
+      Events:
+        StartApi:
+          Type: Api
+          Properties:
+            RestApiId: !Ref ApiGateway
+            Path: /airbnb/api/private/{proxy+}
+            Method: ANY
+            Auth:
+                Authorizer: MyLambdaAuthorizer
+  
+  GuestsFunctions:
+    Type: AWS::Serverless::Function
+    Properties:
+      Handler: app.lambda_handler
+      Runtime: python3.8
+      CodeUri: src/guest/
+      Role: !GetAtt LambdaExecutionRole.Arn
+      MemorySize: 512
+      Timeout: 30
+      Environment:
+        Variables:
+          USERS_TABLE: !Ref UsersTable
+          APARTMENTS_TABLE: !Ref ApartmentsTable
+          BOOKINGS_TABLE: !Ref BookingsTable
+          GUESTS_TABLE: !Ref GuestsTable
+          JWT_EXPIRATION: 3600
+          SECRET_KEY: "54353245345234534535tdfasdfadsfsdf2243252454t43adaf"
+          BUCKET_NAME: !Ref UploadBucket
+          FRONTEND_BASE_URL: "https://www.airbnb.finbotix.de"
+      Events:
+        StartApi:
+          Type: Api
+          Properties:
+            RestApiId: !Ref ApiGateway
+            Path: /airbnb/api/guest/{proxy+}
+            Method: ANY
+
+  AgentFunctions:
+    Type: AWS::Serverless::Function
+    Properties:
+      Handler: app.lambda_handler
+      Runtime: python3.8
+      CodeUri: src/agent/
+      Role: !GetAtt LambdaExecutionRole.Arn
+      MemorySize: 512
+      Timeout: 30
+      Environment:
+        Variables:
+          USERS_TABLE: !Ref UsersTable
+          APARTMENTS_TABLE: !Ref ApartmentsTable
+          BOOKINGS_TABLE: !Ref BookingsTable
+          GUESTS_TABLE: !Ref GuestsTable
+          JWT_EXPIRATION: 3600
+          SECRET_KEY: "54353245345234534535tdfasdfadsfsdf2243252454t43adaf"
+          FRONTEND_BASE_URL: "https://www.airbnb.finbotix.de"
+      Events:
+        StartApi:
+          Type: Api
+          Properties:
+            RestApiId: !Ref ApiGateway
+            Path: /airbnb/api/agent/{proxy+}
+            Method: ANY
+            Auth:
+                Authorizer: ApiKeyAuthorizer
+
+  AuthFunctions:
+    Type: AWS::Serverless::Function
+    Properties:
+      Handler: app.lambda_handler
+      Runtime: python3.8
+      Role: !GetAtt LambdaExecutionRole.Arn
+      CodeUri: src/auth/
+      MemorySize: 1024
+      Timeout: 60
+      Events:
+        StatusApi:
+          Type: Api
+          Properties:
+            RestApiId: !Ref ApiGateway
+            Path: /auth/{proxy+}
+            Method: ANY
+      Environment:
+          Variables:
+            USERS_TABLE: !Ref UsersTable
+            REFRESH_SECRET_KEY: f"adfsafsd\'gdsf\g[]sdf\g;sd\g'er]gs'vfzxd]ff[]45w4[]t']ags'fvdg;as;gf]"
+            FRONTEND_BASE_URL: "https://www.airbnb.finbotix.de"
+            JWT_EXPIRATION: 3600
+            SECRET_KEY: "54353245345234534535tdfasdfadsfsdf2243252454t43adaf"
+            ACCESS_TOKEN_EXPIRATION: 3600
+
+  AuthorizerFunction:
+    Type: AWS::Serverless::Function
+    Properties:
+      Handler: app.authorizer
+      Runtime: python3.8
+      Role: !GetAtt LambdaExecutionRole.Arn
+      CodeUri: src/authorizer/
+      MemorySize: 1024
+      Timeout: 60
+      Environment:
+          Variables:
+            SECRET_KEY: "54353245345234534535tdfasdfadsfsdf2243252454t43adaf"
+            USERS_TABLE: !Ref UsersTable
+
+
+  ApiKeyAuthorizerFunction:
+    Type: AWS::Serverless::Function
+    Properties:
+      Role: !GetAtt LambdaExecutionRole.Arn
+      Handler: app.lambda_handler
+      Runtime: python3.8
+      MemorySize: 1024
+      Timeout: 60
+      CodeUri: src/api_key_authorizer/
+      Environment:
+        Variables:
+          USERS_TABLE: !Ref UsersTable
+
+  # API Gateway for Lambda Functions (provides endpoints)
+  ApiGateway:
+    Type: AWS::Serverless::Api
+    Properties:
+      Name: AirBnbTemplateBackend
+      Description: Template API for AirBnB
+      StageName: prod
+      Cors:
+        AllowMethods: "'GET,POST,PUT,DELETE,OPTIONS'"
+        AllowHeaders: "'Content-Type,X-Amz-Date,Authorization,X-Api-Key,X-Amz-Security-Token'"
+        AllowOrigin: "'*'"
+      Auth:
+        Authorizers:
+          MyLambdaAuthorizer:
+            FunctionArn: !GetAtt AuthorizerFunction.Arn
+            FunctionPayloadType: REQUEST
+            AuthorizerResultTtlInSeconds: 0
+            Identity:
+              Headers:
+                - Authorization
+          ApiKeyAuthorizer:
+            FunctionArn: !GetAtt ApiKeyAuthorizerFunction.Arn
+            FunctionPayloadType: REQUEST
+            AuthorizerResultTtlInSeconds: 0
+            Identity:
+              Headers:
+                - x-api-key
+
+
+  LambdaExecutionRole:
+    Type: AWS::IAM::Role
+    Properties:
+      AssumeRolePolicyDocument:
+        Version: "2012-10-17"
+        Statement:
+          - Effect: Allow
+            Principal:
+              Service: 
+                - lambda.amazonaws.com
+            Action: 
+              - sts:AssumeRole
+      Policies:
+        - PolicyName: LambdaBedrockDynamoDBPolicy
+          PolicyDocument:
+            Version: "2012-10-17"
+            Statement:
+              - Effect: Allow
+                Action:
+                  - "dynamodb:PutItem"
+                  - "dynamodb:GetItem"
+                  - "dynamodb:UpdateItem"
+                  - "dynamodb:Query"
+                  - "dynamodb:Scan"
+                  - "dynamodb:DeleteItem"
+                Resource:
+                 
+                  - !GetAtt UsersTable.Arn
+                  - !GetAtt ApartmentsTable.Arn
+                  - !GetAtt BookingsTable.Arn
+                  - !GetAtt GuestsTable.Arn
+                  - !Sub "${BookingsTable.Arn}/index/*"
+             
+              - Effect: Allow
+                Action:
+                  - "logs:CreateLogGroup"
+                  - "logs:CreateLogStream"
+                  - "logs:PutLogEvents"
+                  - "ses:SendEmail"
+                  - "ses:SendRawEmail"
+                Resource: "*"
+              - Effect: Allow
+                Action:
+                  - "s3:*"
+                  
+                Resource: !Sub "*"
+              - Effect: Allow
+                Action:
+                  - "bedrock:*"
+                Resource: !Sub "*"
+              - Effect: Allow
+                Action:
+                  - rekognition:CompareFaces
+                Resource: "*"
+            
+Outputs:
+  ApiUrl:
+    Description: "API Gateway URL"
+    Value: !Sub "https://${ApiGateway}.execute-api.${AWS::Region}.amazonaws.com/prod"
